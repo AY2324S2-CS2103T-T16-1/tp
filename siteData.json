@@ -113,7 +113,7 @@
         "adding-a-person-add": "Adding a person: add",
         "listing-all-persons-list": "Listing all persons : list",
         "editing-a-person-edit": "Editing a person : edit",
-        "locating-persons-by-name-find": "Locating persons by name: find",
+        "search-students-by-name-or-id-find": "Search students by name or ID: find",
         "deleting-a-person-delete": "Deleting a person : delete",
         "filtering-displayed-list-filter": "Filtering displayed list : filter",
         "clearing-all-entries-clear": "Clearing all entries : clear",
