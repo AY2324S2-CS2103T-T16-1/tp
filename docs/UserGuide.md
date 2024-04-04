@@ -189,10 +189,40 @@ Format: `tag id/ID t/TAG t/TAG`
 * Tags the student with id `ID`.
 * The `ID` refers to the alphanumeric string on the left of Name
 * The `ID` must start with an alphabet followed by 7 digits and ending with an alphabet e.g A0265901E
+* `TAG` can be alphabetic without spaces and multiple tags can be specified
+
+Examples:
+* `tag id/A0257418E t/potentialTA t/Active`
+
+### Editing tags for a Student: `etag`
+
+Edits the tag of a specific student in EduLink NUS
+
+Format: `etag id/ID t/TAG t/RESULTING_TAG`
+
+* Tags the student with id `ID`.
+* The `ID` refers to the alphanumeric string on the left of Name
+* The `ID` must start with an alphabet followed by 7 digits and ending with an alphabet e.g A0265901E
+* `TAG` must be alphabetic without spaces. It is the existing tag
+  that you intend to edit. This parameter must exactly match the current tag assigned to the student.
+* `RESULTING_TAG` is the new tag that will replace the existing TAG.
+
+Examples:
+* `etag id/A0265901E t/Honors t/Scholar` updates the tag from "Honors" to "Scholar" for the student with ID "A0265901E.
+
+### Deleting a tag from a student : `dtag`
+
+Remove a specific tag from a student's profile.
+
+Format: `dtag id/ID t/TAG t/TAG`
+
+* Tags the student with id `ID`.
+* The `ID` refers to the alphanumeric string on the left of Name
+* The `ID` must start with an alphabet followed by 7 digits and ending with an alphabet e.g A0265901E
 * `TAGS` can be alphabetic without spaces and multiple tags can be specified
 
 Examples:
-* `tag id/A0257418E t/Sincere t/Good`
+* `dtag id/A0257418E t/potentialTA t/Active`
 
 ### Exporting the Data : `export`
 
