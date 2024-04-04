@@ -28,9 +28,9 @@ EduLink NUS is a **desktop app for Academic Instructors to keep contacts of thei
 1. Type the command in the command box and press Enter to execute it. e.g. typing **`help`** and pressing Enter will open the help window.<br>
    Some example commands you can try:
 
-   * `list` : Lists all contacts.
+   * `list` : Lists all Students.
 
-   * `add n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01` : Adds a contact named `John Doe` to the Address Book.
+   * `add id/A0251891L n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01 m/Physics in/2022` : Adds a student named `John Doe` to the Student Book.
 
    * `delete 3` : Deletes the 3rd contact shown in the current list.
 
@@ -79,7 +79,7 @@ Format: `help`
 
 Adds a Student to the EduLink NUS.
 
-Format: `add n/NAME id/STUDENT_ID p/PRIMARY_ PHONE_NUMBER [, SECONDARY_PHONE_NUMBER] e/PRIMARY_EMAIL [ , SECONDARY_EMAIL] [i/INTAKE] [m/MAJOR] [p/PART_OF] [g/GRADE] [t/TAG]…​`
+Format: `add n/NAME id/STUDENT_ID p/PRIMARY_ PHONE_NUMBER e/PRIMARY_EMAIL in/INTAKE m/MAJOR [g/GRADE] [t/TAG]…​`
 
 <box type="tip" seamless>
 
@@ -90,8 +90,8 @@ Format: `add n/NAME id/STUDENT_ID p/PRIMARY_ PHONE_NUMBER [, SECONDARY_PHONE_NUM
 * The `ID` must start with an alphabet followed by 7 digits and ending with an alphabet e.g A0265901E
 
 Examples:
-* `add n/John Doe id/A0265901E p/1234567890, 9876543210 e/john.doe@example.com, jdoe@example.com i/2023 m/Computer Science p/CS2103 Tut  g/A+ t/Honors`
-* `add n/Kumar Prabhat id/A0041400M p/1234567890, 9876543210 e/john.doe@example.com`
+* `add n/John Doe id/A0265901E p/1234567890 a/John street, block 123, #01-01 e/john.doe@example.com in/2023 m/Computer Science p/CS2103 Tut  g/A+ t/Honors`
+* `add n/Kumar Prabhat id/A0041400M p/1234567890, 9876543210 e/john.doe@example.com m/Medicine a/John street, block 256, #02-02 in/2021`
 
 ### Listing all students : `list`
 
@@ -193,6 +193,35 @@ Format: `tag id/ID t/TAG t/TAG`
 
 Examples:
 * `tag id/A0257418E t/Sincere t/Good`
+
+### Exporting the Data : `export`
+
+Exports the students from the address book in a CSV file. 
+
+Format: `export f/[FILENAME]`
+
+* Exports the Students Data in a CSV file named `FILENAME.csv` in the **exports** directory i.e `[JAR_FILE_LOCATION]/exports/FILENAME.csv`
+* Multiple values within an attribute is separated with a `|` e.g Tags -> `Potenial TA | Honours` in the CSV File.
+* `FILENAME` must be alphanumeric and it can include ` _ (Underscore)` and `- (Hyphen)`.
+
+Examples:
+* `export f/Mystudents`
+* `export f/NUS-CS`
+
+### Importing the Data : `import`
+
+Imports data from a valid JSON file into the Application
+
+Format: `import f/[FILENAME]`
+
+* Imports Students Data from JSON file named `FILENAME.json` in the **data** directory i.e `[JAR_FILE_LOCATION]/data/FILENAME.json`
+* `FILENAME` must be alphanumeric and it can include ` _ (Underscore)` and `- (Hyphen)`.
+
+Examples:
+* `import f/Mystudents`
+* `import f/NUS-CS`
+* `import f/_Stanford`
+
 
 ### Clearing all entries : `clear`
 
