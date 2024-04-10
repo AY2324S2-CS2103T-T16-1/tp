@@ -108,8 +108,12 @@
       "title": "User Guide",
       "headings": {
         "edulink-nus-user-guide": "EduLink-NUS User Guide",
-        "introduction": "Introduction",
+        "welcome-to-the-edulink-nus-user-guide": "Welcome to the EduLink-NUS User Guide!",
         "table-of-contents": "Table of Contents",
+        "introduction": "Introduction",
+        "what-is-edulink-nus": "What is EduLink-NUS",
+        "user-proficiency-and-expectations": "User Proficiency and Expectations",
+        "why-this-guide-matters": "Why This Guide Matters",
         "quick-start": "Quick start",
         "graphical-user-interface-layout": "Graphical User Interface Layout",
         "edulink-nus-features": "EduLink-NUS Features",
