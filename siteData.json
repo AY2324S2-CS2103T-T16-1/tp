@@ -144,6 +144,8 @@
         "exporting-students-data-export": "Exporting Students Data : export",
         "importing-students-data-import": "Importing Students Data : import",
         "undo-changes-undo": "Undo Changes: undo",
+        "grading-a-student-grade": "Grading a student : grade",
+        "deleting-a-grade-for-a-student-dgrade": "Deleting a grade for a student : dgrade",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
