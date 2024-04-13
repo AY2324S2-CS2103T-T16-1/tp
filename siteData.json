@@ -50,6 +50,7 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
+        "add-feature": "Add feature",
         "find-feature": "Find feature",
         "export-feature": "Export feature",
         "import-feature": "Import feature",
