@@ -51,6 +51,8 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "find-feature": "Find feature",
+        "export-feature": "Export feature",
+        "import-feature": "Import feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
