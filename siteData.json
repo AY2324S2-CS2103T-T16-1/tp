@@ -55,7 +55,7 @@
         "import-feature": "Import feature",
         "grade-feature": "Grade Feature",
         "tag-feature": "Tag Feature",
-        "undo-redo-feature": "Undo/redo feature",
+        "undo-feature": "Undo feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
