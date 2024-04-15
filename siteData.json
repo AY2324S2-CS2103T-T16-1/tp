@@ -40,7 +40,6 @@
       "title": "Developer Guide",
       "headings": {
         "edulink-nus-developer-guide": "EduLink-NUS Developer Guide",
-        "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
         "architecture": "Architecture",
@@ -56,7 +55,7 @@
         "import-feature": "Import feature",
         "grade-feature": "Grade Feature",
         "tag-feature": "Tag Feature",
-        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
+        "undo-redo-feature": "Undo/redo feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
